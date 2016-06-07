@@ -98,7 +98,7 @@ Transform:
   m_PrefabInternal: {fileID: 1189828952}
   m_GameObject: {fileID: 59438084}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 12, z: 0}
+  m_LocalPosition: {x: 0, y: 10, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 1039384339}
@@ -222,6 +222,7 @@ MonoBehaviour:
   numBaskets: 3
   basketBottomY: -14
   basketSpacingY: 2
+  basketList: []
 --- !u!1 &1039384335
 GameObject:
   m_ObjectHideFlags: 0
@@ -371,7 +372,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 447856, guid: d7f01940a165244a1b0ed8ac30262aad, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 12
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 447856, guid: d7f01940a165244a1b0ed8ac30262aad, type: 2}
       propertyPath: m_LocalPosition.z
@@ -451,6 +452,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1769290038}
   - 132: {fileID: 1769290037}
+  - 114: {fileID: 1769290039}
   m_Layer: 0
   m_Name: HighScore
   m_TagString: Untagged
@@ -493,6 +495,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
+--- !u!114 &1769290039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1769290036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5ff4cc04b2bac04ea8fc5924b704e4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1855425702
 GameObject:
   m_ObjectHideFlags: 0
